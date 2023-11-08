@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body > header {
+    background-color: #368eba;
+    padding: 16px 0;
+    font-family:'Arial';
+    color: #f5f6fa;
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    padding: auto;
+}
+
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header time {
+    color: #fdfdfd;
+}
+
+
+header li {
+    display: inline;
+    font-weight: bold;
+    margin-left: 16px;
+
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+header li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display:flex;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /* height: 180px; */
+    width: 100%;
+    margin-top: 50px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: rgba(54, 149, 204, 0.6);
+    color: #fff;
+    padding: 6px;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 8px;
+    font-weight:500;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+p {
+    color:#8a8a8a;
+}
+
+#sports {
+    background-color: #c9d6d3;
+}
+
+#cinema {
+    background-color: #d1e8fa;
+}
